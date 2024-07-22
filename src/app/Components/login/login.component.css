@@ -1,0 +1,37 @@
+.body{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items:center;
+    background-image: url("img/img.jpg");
+    background-size: cover;
+    background-position: center;
+}
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+.body {
+    animation: fadeIn 2s;
+}
+.loginCard {
+    animation: fadeIn 4s;
+}
+
+
+
+.loginCard{
+    max-width: 328px !important;
+    margin: 2em auto;
+    text-align: center;
+    max-height: 600px;   
+    border-radius: 15px;
+}
+.header{
+    text-align: center;
+}
+
+.full-widht{
+    width: 80%;
+}
